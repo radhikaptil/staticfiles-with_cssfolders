@@ -1,0 +1,28 @@
+fieldset{
+    margin: auto;
+    width:50%;
+    background-color: rgb(182, 107, 189);
+    color: black;
+}
+form{
+    margin-left:200px;
+}
+legend{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 0 20px;
+    background-color: rgb(211, 179, 207);
+}
+input:hover{
+    border: 2px solid black;
+    color: black;
+    background-color:rgb(229, 230, 221);
+}
+h1{
+    text-align: center;
+    font-weight: lighter;
+    color: black;
+}
+tr,td{
+padding: 10px;
+}

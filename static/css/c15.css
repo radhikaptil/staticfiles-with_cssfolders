@@ -1,0 +1,20 @@
+fieldset{
+    width:500px;
+    margin:auto;
+    background-color:yellowgreen;
+ }   
+ legend {
+    border:3px double black;
+    padding: 10px;
+    border-radius: 20px;
+    color:black;
+ }
+ form{
+    margin-left:100px;
+    Width:700PX;
+ }
+ input:hover{
+    background-color:purple;
+    color:white;
+    border-radius: 20px;
+ }

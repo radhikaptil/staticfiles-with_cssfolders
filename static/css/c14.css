@@ -1,0 +1,19 @@
+fieldset{
+    width:500px;
+    margin:auto;
+    background-color:palevioletred;
+}
+legend {
+    border:2px solid black;
+padding: 10px;
+background-color: rgb(51, 51, 141);
+color: white;
+}
+form{
+    margin-left: 100px;
+}
+input:hover{
+    background-color: aqua;
+    color: blueviolet;
+    border-radius:20px;
+}

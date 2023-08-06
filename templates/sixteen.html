@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c16.css' %}">
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Student Portal Form</legend>
+        <form>
+            <table>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                <td>Email Id</td>
+                <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Date of birth</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>MObile no.</td>
+                    <td><input type="tel"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="abc">Male
+                    <input type="radio" name="abc">Female</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea cols="10" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><button>Reset</button></td>
+                    <td><button>Submit</button></td>
+                </tr>
+
+
+
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

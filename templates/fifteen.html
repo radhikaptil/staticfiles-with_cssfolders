@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c15.css' %}">
+</head>
+<body>
+    
+    <fieldset>
+        <legend><b>Registration Form</b></legend> 
+    <form>
+        <table>
+            <tr>
+                <td><b>University:</b></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><b>Institute:</b></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+            <td><b>Branch</b></td>
+            <td><select>
+                <option>--select--</option>
+                <option value="">Goa</option>
+                <option value="">Dharwad</option>
+                <option value="">Benglore</option>
+                <option value="">Hubli</option>
+                </select></td>
+                <tr>
+                    <td><b>Degree</b></td>
+                    <td><select>
+                        <option>--select--</option>
+                        <option value="">Graduate</option>
+                        <option value="">MBBS</option>
+                        <option value="">Masters</option>
+                       <td><input type="radio" name="abc">Pursuing</td>
+                    <td><input type="radio" name="abc">Completed</td>
+                    </select></td>
+                    </tr>
+                    <tr>
+                        <td><label><b>Average CPI</b></label></td>
+                        <td><input type="text"></td>
+
+                         <td>Upto</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Experienve</b></td>
+                    <td><input type="number"></td>
+                    <td>Years</td>
+                    </tr>
+                    <tr>
+                    <td><b>Your  Website Or Blog</b></td>
+                    <td><input type="text"></td>
+                    </tr>
+
+
+        </table>
+    </form>
+    </fieldset>
+    
+</body>
+</html>

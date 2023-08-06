@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    margin: 20% 0 0 40%;
+}
+h1{
+    width:500px;
+    height: 100px;
+    font-style: 50px;
+    font-style: italic;
+    animation-name: jump;
+}
+span{
+    background-color: ghostwhite;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    animation-name: jump;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+span:nth-child(1){
+    color:rgb(71, 71, 228) ;
+    animation-delay: 1s;
+}
+span:nth-child(2){
+    color:rgb(243, 70, 127) ;
+    animation-delay: 2s;
+}
+span:nth-child(3){
+    color: rgb(251, 108, 57);
+    animation-delay: 3s;
+}
+span:nth-child(4){
+    color: rgb(207, 47, 207);
+    animation-delay: 4s;
+}
+span:nth-child(5){
+    color:rgb(231, 231, 62) ;
+    animation-delay: 5s;
+}
+span:nth-child(6){
+    color:rgb(31, 219, 219) ;
+    animation-delay: 6s;
+}
+span:nth-child(7){
+    color:rgb(44, 235, 130) ;
+    animation-delay: 7s;
+}
+span:nth-child(8){
+    color:rgb(148, 33, 33) ;
+    animation-delay: 8s;
+}
+@keyframes jump{
+    from{
+    bottom:0;
+    transform:scale(1,1);
+}
+to{
+    filter: hue-rotate(360deg);
+    bottom: 100px;
+    transform: scale(2,2);
+}
+}
